@@ -22,3 +22,7 @@ password: wj123
 
 # Training of data
 Login with the MADRIP account and open the 'Model Training.ipynb' notebook located in the Colab Notebook run all the cells except last two and cell# 19 and 20 as they contain the model saving and loading code. The training will start and it will show the accuracy of the model.
+
+# Web Module
+The folder name is MADRIP_Web Module, this contaisn all the html and css files for the web design of MADRIP. To get an overview of the look and feel of web design, simply open file "index" which is basically our homepage, its an html file . To edit files you can simply open any editable file in an editor. the bannsers and all the images used are in 'img' folder.
+There are also javascript files, the image uploading module is using that. Right now we are not retrieving file that functionality will be used in fyp-2.
