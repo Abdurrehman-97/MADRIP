@@ -2,6 +2,8 @@
 # Final Year Project
 # FYP-S20-09-D-MADRIP
 
+# FYP-1--------------------
+
 # MADRIP_v2.ipynb: 
 This file contains the initial code for a system that identifies the stage of Diabetic Retinopathy and also provides a visuallization of the results of the multi-dimensional analysis performed by the system.
 
@@ -26,3 +28,12 @@ Login with the MADRIP account and open the 'Model Training.ipynb' notebook locat
 # Web Module
 The folder name is MADRIP_Web Module, this contaisn all the html and css files for the web design of MADRIP. To get an overview of the look and feel of web design, simply open file "index" which is basically our homepage, its an html file . To edit files you can simply open any editable file in an editor. the bannsers and all the images used are in 'img' folder.
 There are also javascript files, the image uploading module is using that. Right now we are not retrieving file that functionality will be used in fyp-2.
+
+# FYP-2---------------
+
+# Running the code:
+The code in the master branch contains the update code of MADRIP. The backend has been integrated with the front end.
+Download the project and open it on VS Code. Make sure that the Python and Django extensions are installed on VS. Also ensure that the version of Python 3 is atleast 3.7.9. Open the command palette of VS and select the Python interpreter (Python environment; ensure that it has the latest version of libraries for instance PyTorch). Then open a new terminal and type the following command:
+python manage.py runserver
+After successful execution it would return the address on which you can access the website. 
+
